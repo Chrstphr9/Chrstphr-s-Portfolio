@@ -15,7 +15,7 @@ items-center justify-center gap-4'>
                 AI Engineer Based in London.
             </h1>
             <p className='max-w-2xl mx-auto'>
-                I am a seasoned AI Engineer, Technology Leader, and Cloud Architect
+                I am a seasoned Frontend Dev, Technology Leader, and Cloud Architect
                 with over 20 years of experience in software development, AI transformation, and enterprise
                 technology solutions. </p>
                 <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>

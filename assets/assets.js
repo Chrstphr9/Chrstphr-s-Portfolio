@@ -35,6 +35,10 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import AI from './AI.png'
+import cloud from './cloud.png'
+import swe from './swe.png'
+import api from './api.jpeg'
 
 export const assets = {
     user_image,
@@ -73,7 +77,11 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    cloud,
+    swe,
+    AI,
+    api
 };
 
 export const workData = [
@@ -100,9 +108,9 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'AI Consulting', description: 'Helping businesses integrate AI for automation, and enhanced customer experiences.', link: '' },
-    { icon: assets.mobile_icon, title: 'AI Consulting', description: 'Driving digital transformation, mentoring teams, and setting technology roadmaps.', link: '' },
-    { icon: assets.ui_icon, title: 'Web API and Cloud Engineering', description: 'Architecting secure, scalable, and high-performance APIs and cloud infrastructures', link: '' },
+    { icon: assets.AI, title: 'AI Consulting', description: 'Helping businesses integrate AI for automation, and enhanced customer experiences.', link: '' },
+    { icon: assets.swe, title: 'Technology Leadership', description: 'Driving digital transformation, mentoring teams, and setting technology roadmaps.', link: '' },
+    { icon: assets.cloud, title: 'Web API and Cloud Engineering', description: 'Architecting secure, scalable, and high-performance APIs and cloud infrastructures', link: '' },
     { icon: assets.graphics_icon, title: 'Frontend Engineering', description: 'Building intuitive and efficient web and mobile applications with seamless API integrations', link: '' },
 ]
 
@@ -113,5 +121,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.firebase, assets.mongodb, assets.api, assets.git
 ];
