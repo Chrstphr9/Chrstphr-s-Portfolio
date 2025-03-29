@@ -17,16 +17,8 @@ const About = () => {
                 </div>
                 <div className='flex-1'>
                     <p className='mb-10 max-w-2xl'>
-                        I am Uchenna Emmanuel, a seasoned AI Engineer, Technology Leader, and Cloud Architect
-                        with over 20 years of experience in software development, AI transformation, and enterprise
-                        technology solutions. As a CTO and Chief AI Officer, I specialize in leveraging cutting-edge
-                        Artificial Intelligence, Cloud Computing, and Software Engineering to drive business
-                        innovation.<br></br>
-                        My expertise spans across AI Engineering & Consulting, Web & API Engineering, Mobile
-                        Engineering, and Cloud Architecture, with a strong focus on helping organizations scale their
-                        digital transformation efforts. I have led and delivered amazing technology products and
-                        complex AI-powered solutions, including Advanced AI RAG applications, AI Ethics, and
-                        enterprise-wide AI adoption strategies.
+                    <p>I am an experienced Frontend Developer with yearrs for professional expertise in the field. Throughout my career, I have had the privilege of collaborating with individuals.</p>
+                    <p>My passion for frontend development is not only reflects in my extensive experience but also in the enthusiasm and dedication I bring to each project.</p>
                     </p>
 
                     <ul className='grid grid-col-1 sm:grid-cols-3 gap-6 max-w-2xl'>

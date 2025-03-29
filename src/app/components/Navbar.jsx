@@ -23,7 +23,7 @@ const Navbar = () => {
             <nav className='w-full fixed px-5 lg:px-8 xl:px-[8%] py-4
             flex items-center justify-between z-50'>
                 <a href="#top">
-                    <h1 className='font-bold text-3xl cursor-pointer'>UCHE.</h1>
+                    <h1 className='font-bold text-3xl cursor-pointer'>Chrstphr.</h1>
                 </a>
 
                 <ul className='hidden md:flex item-center gap-6 lg:gap-8
