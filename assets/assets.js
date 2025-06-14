@@ -108,11 +108,31 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.AI, title: 'AI Consulting', description: 'Helping businesses integrate AI for automation, and enhanced customer experiences.', link: '' },
-    { icon: assets.swe, title: 'Technology Leadership', description: 'Driving digital transformation, mentoring teams, and setting technology roadmaps.', link: '' },
-    { icon: assets.cloud, title: 'Web API and Cloud Engineering', description: 'Architecting secure, scalable, and high-performance APIs and cloud infrastructures', link: '' },
-    { icon: assets.graphics_icon, title: 'Frontend Engineering', description: 'Building intuitive and efficient web and mobile applications with seamless API integrations', link: '' },
-]
+    { 
+        icon: assets.web_icon, 
+        title: 'Frontend Development', 
+        description: 'Building fast, responsive, and accessible web applications with React, Next.js, and Tailwind CSS.', 
+        link: '' 
+    },
+    { 
+        icon: assets.api, 
+        title: 'API Integration', 
+        description: 'Seamlessly connecting frontend interfaces with RESTful or GraphQL APIs for dynamic user experiences.', 
+        link: '' 
+    },
+    { 
+        icon: assets.ui_icon, 
+        title: 'UI/UX Optimization', 
+        description: 'Crafting intuitive interfaces with performance, accessibility, and user-centric design in mind.', 
+        link: '' 
+    },
+    { 
+        icon: assets.cloud, 
+        title: 'Full-Stack Solutions', 
+        description: 'Developing end-to-end web applications with modern frameworks and cloud deployment (AWS, Vercel).', 
+        link: '' 
+    },
+];
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'JavaScript React Js, Next Js' },

@@ -50,7 +50,7 @@ const Navbar = () => {
                 <div className='flex items-center gap-4'>
 
                     <button>
-                        <Image src={assets.moon_icon} alt='' className='w-6' />
+                        <Image src={assets.moon_icon} alt='dark mode' className='w-6' />
                     </button>
 
                     <a className='hidden lg:flex items-center gap-3 px-10

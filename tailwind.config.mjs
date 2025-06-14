@@ -14,7 +14,10 @@ module.exports = {
       fontFamily: {
         Outfit: ['Outfit', 'sans-serif'],
         Ovo: ['Ovo', 'sans-serif'],
-      }
+      },
+      gridTemplateColumns: {
+        'auto-fit': 'repeat(auto-fit, minmax(200px, 1fr))',
+      },
     },
   },
   variants: {
