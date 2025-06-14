@@ -86,24 +86,24 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'AI Consulting',
-        description: 'Consulting',
-        bgImage: '/work-1.png',
-    },
-    {
-        title: 'Technology Leadership',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
-    },
-    {
-        title: 'Web API and Cloud Engineering',
+        title: 'Frontend Project',
         description: 'Web Design',
-        bgImage: '/work-3.png',
+        bgImage: '/work7.png',
     },
     {
-        title: 'Frontend Engineering',
-        description: 'Frontend Enginnering',
-        bgImage: '/work-4.png',
+        title: 'Frontend Project',
+        description: 'Web Design',
+        bgImage: '/work6.png',
+    },
+    {
+        title: 'Frontend Project',
+        description: 'Web Design',
+        bgImage: '/work5.png',
+    },
+    {
+        title: 'Frontend Project',
+        description: 'Web Design',
+        bgImage: '/work4.png',
     },
 ]
 

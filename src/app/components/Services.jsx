@@ -13,7 +13,7 @@ const Services = () => {
             user-friendly web experiences. Proficient in React, Next.js, Tailwind CSS, and 
             TypeScript, I focus on clean code, performance optimization, and intuitive design.</p>
 
-            <div className=' grid grid-cols-auto gap-6 my-10'>
+            <div className="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-6 my-10">
                 {serviceData.map(({icon, title, description, link}, index) => (
                     <div key={index} 
                     className='border border-gray-400 rounded-lg px-8 py-12

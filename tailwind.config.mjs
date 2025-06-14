@@ -16,7 +16,7 @@ module.exports = {
         Ovo: ['Ovo', 'sans-serif'],
       },
       gridTemplateColumns: {
-        'auto-fit': 'repeat(auto-fit, minmax(200px, 1fr))',
+        'auto': 'repeat(auto-fit, minmax(200px, 1fr))',
       },
     },
   },
