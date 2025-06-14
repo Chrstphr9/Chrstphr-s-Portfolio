@@ -36,10 +36,10 @@ const About = () => {
                             </li>
                         ))}
                     </ul>
-                    <h4>
+                    <h4 className='my-6 text-gray-700 font-Ovo'>
                         Tools I Use
                     </h4>
-                    <ul>
+                    <ul className='flex items-center gap-3 sm:gap-5'>
                         {toolsData.map((tool, index)=>(
                             <li key={index}>
                                 <Image className='w-5 sm:w-7' 

@@ -1,11 +1,12 @@
 'use client'
 import { assets } from '../../../assets/assets'
 import Image from 'next/image'
-import React, { useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 
 const Navbar = () => {
 
-    const sideMenuRef = useRef();
+    const [isScrolled, setIsScrolled] = useState(false);
+    const sideMenuRef = useRef();  
 
     const openMenu = ()=> {
         sideMenuRef.current.style.transform ='translateX(-16rem)'
@@ -15,19 +16,30 @@ const Navbar = () => {
         sideMenuRef.current.style.transform ='translateX(16rem)'
     }
 
+    useEffect(()=>{
+            window.addEventListener('scroll', () => {
+                if(scrollY > 50) {
+                    setIsScrolled(true);
+                } else {
+                    setIsScrolled(false); 
+                }
+            })
+    }, [])
+
     return (
         <>
             <div className='fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%]'>
-                <Image src={assets.header_bg_color} alt='' className='w-full'/>
+                <Image src={assets.header_bg_color} alt='head' className='w-full'/>
             </div>
-            <nav className='w-full fixed px-5 lg:px-8 xl:px-[8%] py-4
-            flex items-center justify-between z-50'>
+            <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4
+            flex items-center justify-between z-50 
+            ${isScrolled ? 'bg-white/50 backdrop-blur-md shadow-sm' : 'bg-transparent backdrop-blur-lg'}`}>
                 <a href="#top">
                     <h1 className='font-bold text-3xl cursor-pointer'>Chrstphr.</h1>
                 </a>
 
-                <ul className='hidden md:flex item-center gap-6 lg:gap-8
-                rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50'>
+            <ul className={`hidden md:flex item-center gap-6 lg:gap-8
+            rounded-full px-12 py-3 ${isScrolled ? "" : 'bg-white shadow-sm bg-opacity-50 '}`}>
                     <li><a className='' href='#top'>Home</a></li>
                     <li><a href='#about'>About Me</a></li>
                     <li><a href='#services'>Services</a></li>
@@ -48,7 +60,7 @@ const Navbar = () => {
                         alt='contact' /></a>
 
                         <button className='block md:hidden ml-3' onClick={openMenu}>
-                        <Image src={assets.menu_black} alt='' className='w-6' />
+                        <Image src={assets.menu_black} alt='menu' className='w-6' />
                         </button>
                 </div>
 
@@ -57,7 +69,7 @@ const Navbar = () => {
                 top-0 bottom bottom-0 w-64 z-50 h-screen bg-rose-50 transition duration-500'>
 
                 <div className='absolute right-6  top-6' onClick={closeMenu}>
-                    <Image src={assets.close_black} alt='' className='w-5 cursor-pointer' />
+                    <Image src={assets.close_black} alt='close' className='w-5 cursor-pointer' />
                 </div>
 
                     <li><a onClick={closeMenu} href='#top'>Home</a></li>
