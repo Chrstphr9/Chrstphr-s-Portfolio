@@ -1,13 +1,25 @@
 import Image from 'next/image'
 import React from 'react'
 import { assets, infoList, toolsData } from '../../../assets/assets'
-
+import * as motion from "motion/react-client"
 
 const About = () => {
     return (
-        <div id='about' className='w-full px-[12%] py-10 scroll-mt-20'>
-            <h4 className='text-center mb-2 text-lg'>Introduction</h4>
-            <h2 className='text-center text-5xl'>About Me</h2>
+        <motion.div 
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.6 }}
+        id='about' className='w-full px-[12%] py-10 scroll-mt-20'>
+            <motion.h4 
+            initial={{ opacity: 0, y: -20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+            className='text-center mb-2 text-lg'>Introduction</motion.h4>
+            <motion.h2 
+            initial={{ opacity: 0, y: -20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.5 }}
+            className='text-center text-5xl'>About Me</motion.h2>
 
             <div className='flex w-full flex-col lg:flex-row items-center
         gap-20 my-20'>
@@ -50,7 +62,7 @@ const About = () => {
                     </ul>
                 </div>
             </div>
-        </div>
+        </motion.div>
     )
 }
 
