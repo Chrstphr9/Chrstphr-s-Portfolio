@@ -87,24 +87,105 @@ export const assets = {
 export const workData = [
     {
         title: 'Frontend Project',
-        description: 'Web Design',
+        description: 'AI Summarizer',
         bgImage: '/work7.png',
     },
     {
         title: 'Frontend Project',
-        description: 'Web Design',
+        description: 'Web3 Landing Page',
         bgImage: '/work6.png',
     },
     {
         title: 'Frontend Project',
-        description: 'Web Design',
+        description: 'Chat App',
         bgImage: '/work5.png',
     },
     {
         title: 'Frontend Project',
-        description: 'Web Design',
+        description: 'Figo Event',
+        bgImage: '/work8.png',
+        Link:'https://figo-event.vercel.app/'
+    },
+]
+
+export const workData2 = [
+    {
+        title: 'Frontend Project',
+        description: 'AI Summarizer',
+        bgImage: '/work7.png',
+        Link: 'https://extraordinary-halva-f0fcde.netlify.app/'
+    },
+    {
+        title: 'Frontend Project',
+        description: 'Web3 Landing Page',
+        bgImage: '/work6.png',
+        Link: 'https://meta-v.vercel.app/'
+    },
+    {
+        title: 'Frontend Project',
+        description: 'Chat App',
+        bgImage: '/work5.png',
+    },
+    {
+        title: 'Frontend Project',
+        description: 'First Portfolio',
         bgImage: '/work4.png',
     },
+    {
+        title: 'Frontend Project',
+        description: 'Figo Event',
+        bgImage: '/work8.png',
+        Link:'https://figo-event.vercel.app/'
+    },
+    {
+        title: 'Frontend Project',
+        description: 'Note App',
+        bgImage: '/work2.png',
+        Link:'https://note-app-eight-orpin.vercel.app/'
+    },
+    {
+        title: 'Frontend Project',
+        description: 'Food App',
+        bgImage: '/work9.png',
+        Link:'https://stalwart-frangollo-9d5a9c.netlify.app/'
+    },
+    {
+        title: 'Frontend Project',
+        description: 'Admin Dashboard',
+        bgImage: '/work10.png',
+        Link:'https://gregarious-mermaid-aeeb8b.netlify.app/'
+    },
+    {
+        title: 'Frontend Project',
+        description: 'Diplomats Travels Website',
+        bgImage: '/work11.png',
+        Link:'https://travel-agency-tdel.vercel.app/'
+    },
+    {
+        title: 'Frontend Project',
+        description: 'Diplomats Branding Website',
+        bgImage: '/work12.png',
+        Link:'https://del-branding.vercel.app/'
+    },
+    {
+        title: 'Frontend Project',
+        description: 'The Diplomats Website',
+        bgImage: '/work13.png',
+        Link:'https://the-diplomats.vercel.app/'
+    },
+    {
+        title: 'Frontend Project',
+        description: 'Diplomats Real Estate Website',
+        bgImage: '/work14.png',
+        Link:'https://real-estate-site-tdel.vercel.app/'
+    },
+    {
+        title: 'Frontend Project',
+        description: 'Landing Page',
+        bgImage: '/work15.png',
+        Link:'https://data-finance-snowy.vercel.app/'
+    },
+
 ]
 
 export const serviceData = [

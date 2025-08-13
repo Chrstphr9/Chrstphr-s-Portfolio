@@ -1,14 +1,12 @@
 import React from 'react'
-import { assets,workData } from '../../../assets/assets'
+import { assets, workData2 } from '../../../assets/assets'
 import Image from 'next/image'
-import Link from 'next/link'
 
-
-const Work = () => { 
+const Mywork = () => { 
   return (
-    <div id='work' className='w-full px-[12%] py-10 scroll-mt-20'>
+    <div id='work' className='w-full px-[12%] py-10 scroll-mt-20 pt-30'>
         <h4 className='text-center mb-2 text-lg'>My Portfolio</h4>
-        <h2 className='text-center text-5xl'>My Latest Work</h2>
+        <h2 className='text-center text-5xl'>My Work</h2>
 
         <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
         Welcome to my web development portfolio! Explore a collection of projects 
@@ -16,7 +14,7 @@ const Work = () => {
         </p>
 
         <div className='grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] my-10 gap-5'>
-    {workData.map((project, index) => (
+    {workData2.map((project, index) => (
         <a 
             key={index}
             href={project.Link} // Make sure each project has a 'link' property
@@ -37,14 +35,8 @@ const Work = () => {
         </a>
     ))}
 </div>
-        <Link href='/latestwork' className='w-max flex items-center justify-center gap-2 text-gray-700
-        border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 
-        hover:bg-[#fcf4ff] duration-500'>
-            Show More <Image src={assets.right_arrow_bold} alt='right arrow' className='w-4' />
-
-        </Link>
     </div>
   )
 }
 
-export default Work
+export default Mywork

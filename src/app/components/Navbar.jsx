@@ -40,7 +40,7 @@ const Navbar = () => {
 
             <ul className={`hidden md:flex item-center gap-6 lg:gap-8
             rounded-full px-12 py-3 ${isScrolled ? "" : 'bg-white shadow-sm bg-opacity-50 '}`}>
-                    <li><a className='' href='#top'>Home</a></li>
+                    <li><a className='' href='/'>Home</a></li>
                     <li><a href='#about'>About Me</a></li>
                     <li><a href='#services'>Services</a></li>
                     <li><a href='#work'>Blog</a></li>
