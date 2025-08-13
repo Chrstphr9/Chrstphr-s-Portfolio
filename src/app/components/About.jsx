@@ -29,7 +29,7 @@ const About = () => {
                 </div>
                 <div className='flex-1'>
                     <p className='mb-10 max-w-2xl'>
-                    <p>I am an experienced Frontend Developer with yearrs for professional expertise in the field. Throughout my career, I have had the privilege of collaborating with individuals.</p>
+                    <p>I am an experienced Frontend Developer with years for professional expertise in the field. Throughout my career, I have had the privilege of collaborating with individuals.</p>
                     <p>My passion for frontend development is not only reflects in my extensive experience but also in the enthusiasm and dedication I bring to each project.</p>
                     </p>
 
