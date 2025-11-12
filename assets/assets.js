@@ -185,6 +185,18 @@ export const workData2 = [
         bgImage: '/work15.png',
         Link:'https://data-finance-snowy.vercel.app/'
     },
+    {
+        title: 'Frontend Project',
+        description: 'Figo Labs',
+        bgImage: '/work16.png',
+        Link:'https://figo-labs.vercel.app/'
+    },
+    {
+        title: 'Frontend Project',
+        description: 'SkyView Hotel',
+        bgImage: '/work17.png',
+        Link:'https://hotel-bice-pi.vercel.app/'
+    },
 
 ]
 
